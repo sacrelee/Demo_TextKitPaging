@@ -12,6 +12,8 @@
 		E51DE4B81B19E44700EE24D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E51DE4B71B19E44700EE24D2 /* Images.xcassets */; };
 		E51DE4BB1B19E44700EE24D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E51DE4B91B19E44700EE24D2 /* LaunchScreen.xib */; };
 		E51DE4C71B19E44800EE24D2 /* Demo_TextKitPagingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E51DE4C61B19E44800EE24D2 /* Demo_TextKitPagingTests.m */; };
+		E51DE4D11B19E56800EE24D2 /* Text.txt in Resources */ = {isa = PBXBuildFile; fileRef = E51DE4D01B19E56800EE24D2 /* Text.txt */; };
+		E51DE4D41B19E58700EE24D2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E51DE4D31B19E58700EE24D2 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 		E51DE4C01B19E44700EE24D2 /* Demo_TextKitPagingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_TextKitPagingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E51DE4C51B19E44800EE24D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E51DE4C61B19E44800EE24D2 /* Demo_TextKitPagingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_TextKitPagingTests.m; sourceTree = "<group>"; };
+		E51DE4D01B19E56800EE24D2 /* Text.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Text.txt; sourceTree = "<group>"; };
+		E51DE4D21B19E58700EE24D2 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E51DE4D31B19E58700EE24D2 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +81,11 @@
 		E51DE4AF1B19E44700EE24D2 /* Demo_TextKitPaging */ = {
 			isa = PBXGroup;
 			children = (
+				E51DE4D01B19E56800EE24D2 /* Text.txt */,
 				E51DE4B41B19E44700EE24D2 /* AppDelegate.h */,
 				E51DE4B51B19E44700EE24D2 /* AppDelegate.m */,
+				E51DE4D21B19E58700EE24D2 /* RootViewController.h */,
+				E51DE4D31B19E58700EE24D2 /* RootViewController.m */,
 				E51DE4B71B19E44700EE24D2 /* Images.xcassets */,
 				E51DE4B91B19E44700EE24D2 /* LaunchScreen.xib */,
 				E51DE4B01B19E44700EE24D2 /* Supporting Files */,
@@ -193,6 +201,7 @@
 			files = (
 				E51DE4BB1B19E44700EE24D2 /* LaunchScreen.xib in Resources */,
 				E51DE4B81B19E44700EE24D2 /* Images.xcassets in Resources */,
+				E51DE4D11B19E56800EE24D2 /* Text.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +221,7 @@
 			files = (
 				E51DE4B61B19E44700EE24D2 /* AppDelegate.m in Sources */,
 				E51DE4B31B19E44700EE24D2 /* main.m in Sources */,
+				E51DE4D41B19E58700EE24D2 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
