@@ -62,8 +62,9 @@
         [scrollView addSubview:textView];
         
         i ++;
+        
         // 排版结束的判断
-        NSRange range = [layoutManager glyphRangeForTextContainer:textContainer];
+        NSRange range = [layoutManager glyphRangeForTextContainer:textContainer];  // 此方法用来获取当前TextContainer内的文本Range
        if ( range.length + range.location == textString.length )
             break;
     }
